@@ -1,0 +1,288 @@
+{
+  "editor.fontFamily": "Cascadia Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.4,
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.guides.bracketPairs": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, .eslint*, .prettier*, tsconfig*, next.config*",
+    "tailwind.config*": "postcss*",
+    ".env": ".env*"
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 10
+    }
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.font.family": "Poppins",
+  "apc.stylesheet": {
+    ".line-numbers": "position: relative !important; font-size: 15px !important; font-family: 'Poppins' !important; opacity: .4;",
+    ".monaco-editor.no-user-select .lines-content, .monaco-editor.no-user-select .view-line, .monaco-editor.no-user-select .view-lines": "font-family: 'Cascadia Code' !important;",
+    ".monaco-tree .monaco-tree-row .label-name, .monaco-list .monaco-list-row .monaco-icon-label .label-name": "font-family: 'Poppins' !important; font-size: 14px !important; color: #FFF !important;",
+    ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon:not(.codicon)": "background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDgzMCA4MzAiIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCI+PHN0eWxlPi5he2ZpbGw6I2ZmZn08L3N0eWxlPjxwYXRoIGNsYXNzPSJhIiBkPSJtNzMyLjYgMTgybC0zNjIuMyAyMDguOHY0MTIuM2wtNzUuOS00My4xdi00MDcuMmwyODguMi0xNjguNy00Ny43LTI4LjMtMjg2LjcgMTY1LjJ2NDEyLjRsLTc1LjktNDMuMnYtNDA3LjFsMjkwLjQtMTcwLjEtNDcuOC0yOC4yLTI4OC45IDE2Ni40djQxMi40bC03NS44LTQzLjF2LTQwNy4ybDI5Mi41LTE3MS4zIDcxLjctNDIgMTIyIDY5LjhoMC4xbDM3LjUgMjEuNSA4NC41IDQ4LjQgMC4xLTAuMXoiLz48cGF0aCBjbGFzcz0iYSIgZD0ibTQ5Mi40IDQ2MC42djIzOS43bDI4Ni4zLTE2NXY4Mi40bC0yODYuMyAxNjcuNi03NS45IDQ0LjV2LTQwNy4ybDM2Mi4yLTIxMnY4NXoiLz48L3N2Zz4=\"); background-position: 50% !important; background-repeat: no-repeat !important; background-size: 20px !important;",
+    ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-bottom>.tab-border-bottom-container": "bottom: 0 !important; height: 1px !important; z-index: 10 !important; background-image: linear-gradient(to right, #00e8c6, #ff00de, #ffff00, #00e8c6) !important; background-size: 200% auto !important; animation: gradient 4s linear infinite !important;",
+    "@keyframes gradient": "to { background-position: 200% !important; }",
+    ".quick-input-widget": "transform: translateY(-50%) !important; top: 50% !important; box-shadow: 0px 8px 20px rgba(35, 38, 46, 0.45) !important; padding: 10px 10px 18px 10px !important; background-image: linear-gradient(#23262e 0%, #1a1c22 100%) !important; backdrop-filter: blur(3px) !important; border-radius: 20px !important;",
+    ".monaco-list-rows": "background: transparent !important;",
+    ".monaco-list-row:hover": "background: rgba(35, 38, 46, 0.2) !important;",
+    ".quick-input-filter .monaco-inputbox": "border-radius: 12px !important; padding: 8px !important; border: none !important; background-color: rgba(35, 38, 46, 0.40) !important; font-family: \"Poppins\" !important; font-size: 14px !important; margin-bottom: 16px !important;",
+    "#command-blur": "position: absolute; width: 100%; height: 100%; background: rgba(35, 38, 46, 0.15); top: 0; left: 0; backdrop-filter: blur(8px);",
+    ".monaco-inputbox input::placeholder": "color: rgba(255, 255, 255, 0.3) !important;",
+    ".slider": "position: absolute !important; right: 1px !important; 1rem !important; background: #9abcbb !important; left: auto !important;",
+    ".title-label>h2": "display: none;",
+    ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: #161616 !important",
+    ".window-close, .window-max-restore, .window-minimize": "width: 12px !important; height: 12px !important; border-radius: 50% !important; color: transparent !important; cursor: pointer !important; transition: all .25s;",
+    ".window-close": "background-color: #ff5f56 !important;",
+    ".window-max-restore": "background-color: #27c93f !important;",
+    ".window-minimize": "background-color: #ffbd2e !important;",
+    ".window-close:hover, .window-max-restore:hover, .window-minimize:hover": "scale: 1.1",
+    ".window-close:active, .window-max-restore:active, .window-minimize:active": "scale: 0.9",
+    ".window-controls-container": "display: flex !important; align-items: center !important; justify-content: center; column-gap: 16px;",
+    ".command-center.hide": "visibility: visible !important",
+    ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center": "border: none !important; background: transparent !important; transition: all .3s; width: auto !important; padding: 0 0.5rem; margin: 0 auto; flex-grow: 2 !important;",
+    ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center:hover": "background: #ffffff10 !important;",
+    ".titlebar-left": "justify-content: flex-start !important; flex-grow: 0 !important; width: auto !important;",
+    ".search-label": "font-family: 'Poppins' !important; font-size: 14px !important; color: #fff; display: block;",
+    ".search-icon": "display: none !important;",
+    ".codicon-search::before": "display: none !important;",
+    ".codicon-arrow-right, .codicon-arrow-left": "display: none !important;",
+    ".monaco-workbench:not(.web):not(.mac) .part.titlebar .window-controls-container.primary": "width: calc(100px / var(--zoom-factor, 1));",
+    ".titlebar-right": "width: auto !important; flex-grow: 0 !important;",
+    ".monaco-workbench .part.titlebar>.titlebar-container": "display: grid !important; grid-template-columns: auto 1fr auto !important;",
+    ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center": "max-width: 100% !important;"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.suggestSelection": "first",
+  "editor.foldingImportsByDefault": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "files.autoSave": "afterDelay",
+  "workbench.settings.useSplitJSON": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.gpuAcceleration": "on",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "comment-divider.subheaderTransform": "uppercase",
+  "comment-divider.subheaderFiller": "=",
+  "comment-divider.mainHeaderTransform": "uppercase",
+  "comment-divider.lineFiller": "=",
+  "comment-divider.mainHeaderFiller": "=",
+  "comment-divider.length": 50,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "glassit.alpha": 255,
+  "vscodeGoogleTranslate.preferredLanguage": "Spanish",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "jsx-sublime-babel-tags": "javascriptreact"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80, 120],
+    "editor.selectionHighlight": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#F72119",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#4D4DFF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#FFF01F",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "&",
+      "color": "#FF9E3D",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#46F953",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "$",
+      "color": "#DB3EB1",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "@",
+      "color": "#21F8F6",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "console-ninja.captureFunctions": true,
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server": true,
+    "live-preview": true
+  },
+  "console-ninja.featureSet": "Community",
+  "terminal.integrated.env.windows": {},
+  "window.titleBarStyle": "custom",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {},
+
+  "editor.autoClosingQuotes": "always",
+  "editor.stickyScroll.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+
+  /* "prettier.tabWidth": 2,
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.bracketSpacing": true,
+    "prettier.bracketSameLine": false,
+    "prettier.arrowParens": "avoid",
+    "prettier.htmlWhitespaceSensitivity": "strict", */
+  "reactSnippets.settings.importReactOnTop": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.minimap.enabled": false,
+  "remote.SSH.remotePlatform": {
+    "51.222.141.9": "linux",
+    "maxcoding.es": "linux"
+  },
+  "markdown-preview-enhanced.liveUpdate": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "gitlens.ai.experimental.provider": "anthropic",
+  "gitlens.ai.experimental.anthropic.model": "claude-3-opus-20240229",
+  "workbench.editorAssociations": {
+    "*.db": "sqlite-viewer.option"
+  },
+  "amazonQ.telemetry": false,
+  "codeium.enableSearch": true,
+  "codeium.enableConfig": {
+    "*": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "symbols.hidesExplorerArrows": false,
+  "update.mode": "default",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "workbench.colorTheme": "Andromeda Italic Bordered",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSaveDelay": 3000,
+  "window.density.editorTabHeight": "compact",
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "explorer.confirmDelete": false,
+  "gitlens.ai.experimental.model": "gemini:gemini-1.0-pro",
+  "window.newWindowProfile": "Predeterminado"
+}
